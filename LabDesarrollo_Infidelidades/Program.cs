@@ -44,7 +44,7 @@ namespace LabDesarrollo_Infidelidades
 
                 Console.WriteLine("Cantidad de veces que les fue infiel: ");
                 infidelidades.PrimeraVez = int.Parse(Console.ReadLine());
-                //klkl
+                
 
                 // Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\Eros Bencosme\source\repos\LabDesarrollo3_\LabDesarrollo_Infidelidades\InfidelidadesDB.mdf";Integrated Security=True
                 SqlConnection connection = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Eros Bencosme\\source\\repos\\LabDesarrollo3_\\LabDesarrollo_Infidelidades\\InfidelidadesDB.mdf\";Integrated Security=True");
